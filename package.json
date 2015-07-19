@@ -1,0 +1,29 @@
+{
+  "name": "give-unique-id",
+  "version": "1.0.0",
+  "description": "Generates a unique ID for an object and exposes it via a property on the object.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --harmony"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryb73/give-unique-id.git"
+  },
+  "author": "Ryan Biwer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryb73/give-unique-id/issues"
+  },
+  "homepage": "https://github.com/ryb73/give-unique-id#readme",
+  "dependencies": {
+    "node-uuid": "^1.4.3"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5"
+  }
+}
